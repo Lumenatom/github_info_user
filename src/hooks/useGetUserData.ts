@@ -15,7 +15,7 @@ const useGetUserData = () => {
       .get(`https://api.github.com/users/${name}`, {
         method: "GET",
         headers: {
-          Authorization: "token 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",
+          Authorization: "token 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",
         },
       })
       .then((res) => {
