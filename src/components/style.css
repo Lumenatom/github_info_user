@@ -1,0 +1,140 @@
+.main__page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper_search{
+    margin-top: 100px;
+    max-height: 50px;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.search__input{
+    background: white;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+.search__input::placeholder{
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.search__btn{
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+}
+
+.search__btn svg{
+    width: 25px;
+    height: 25px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.search__btn svg:hover{
+    scale: 1.1;
+}
+
+.avatar__image{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.wrapper__notFound{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.wrapper__notFound p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2f2f2f;
+}
+.wrapper__notFound svg{
+    fill: #2f2f2f;
+    width: 50px;
+    height: 50px;
+}
+.loader__wrapper{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0;
+}
+
+.wrapper__card_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.wrapper__card_user img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #2f2f2f;
+    border-radius: 50%;
+ }
+
+.main_info_user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main_info_user h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #2f2f2f;
+}
+.main_info_user p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #2f2f2f;
+    font-style: italic;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #2f2f2f;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: all ease 0.5s;
+}
+
+.link:hover{
+    scale: 1.1;
+}
+.link svg{
+    fill: white;
+    height: 35px;
+    width: 35px;
+}
